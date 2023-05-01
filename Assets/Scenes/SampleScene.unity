@@ -1263,8 +1263,9 @@ GameObject:
   - component: {fileID: 1091185781}
   - component: {fileID: 1091185780}
   - component: {fileID: 1091185779}
+  - component: {fileID: 1091185782}
   m_Layer: 5
-  m_Name: Button
+  m_Name: BuildButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,6 +1386,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091185777}
   m_CullTransparentMesh: 1
+--- !u!114 &1091185782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091185777}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e6d52ac417c5c46ad87bf273eed283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1273929611
 GameObject:
   m_ObjectHideFlags: 0
